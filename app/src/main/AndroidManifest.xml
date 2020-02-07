@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.athulawalpola.tastychickenrecipes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".wholechicken.WholeChickenRecipesOpen" />
+        <activity android:name=".turkeyrecipes.TurkeyRecipesOpen" />
+        <activity android:name=".friedchicken.FriedChickenRecipesOpen" />
+        <activity android:name=".chickenstirfry.ChickenStirFryRecipesOpen" />
+        <activity android:name=".chickenstew.ChickenStewRecipesOpen" />
+        <activity android:name=".chickensoup.ChickenSoupRecipesOpen" />
+        <activity android:name=".chickensalad.ChickenSaladRecipesOpen" />
+        <activity android:name=".chickenlegs.ChickenLegsRecipesOpen" />
+        <activity android:name=".chickenbreasts.ChickenBreastsRecipesOpen" />
+        <activity android:name=".bbqgrilledchicken.BBQGrilledChickenRecipesOpen" />
+        <activity android:name=".bakedroastedchicken.BakedRoastedChickenRecipesOpen" />
+        <activity android:name=".wholechicken.WholeChicken" />
+        <activity android:name=".turkeyrecipes.TurkeyRecipes" />
+        <activity android:name=".friedchicken.FriedChicken" />
+        <activity android:name=".chickenstirfry.ChickenStirFry" />
+        <activity android:name=".chickenstew.ChickenStew" />
+        <activity android:name=".chickensoup.ChickenSoup" />
+        <activity android:name=".chickensalad.ChickenSalad" />
+        <activity android:name=".chickenlegs.ChickenLegs" />
+        <activity android:name=".chickenbreasts.ChickenBreasts" />
+        <activity android:name=".bbqgrilledchicken.BBQGrilledChicken" />
+        <activity android:name=".bakedroastedchicken.BakedRoastedChicken" />
+        <activity android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

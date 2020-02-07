@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tasty Chicken Recipes</string>
+    <string name="todo">TODO</string>
+
+    <!-- Recipe View-->
+    <string name="ingredients">INGREDIENTS</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="nutrition_facts">NUTRITION FACTS</string>
+</resources>

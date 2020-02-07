@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066756434355",
+    "firebase_url": "https://tasty-chicken-recipes-cf678.firebaseio.com",
+    "project_id": "tasty-chicken-recipes-cf678",
+    "storage_bucket": "tasty-chicken-recipes-cf678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066756434355:android:43963c645a60041da743c6",
+        "android_client_info": {
+          "package_name": "com.athulawalpola.tastychickenrecipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066756434355-ms7mjra1rpv4va708qf12fmbto83vkq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.athulawalpola.tastychickenrecipes",
+            "certificate_hash": "50f7b4ae995bc99f1e926f88ddc6a98a3fb7a918"
+          }
+        },
+        {
+          "client_id": "1066756434355-lmijvo4038inf56theeu9l2bv0olu7se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbesa99Rm2mf7bQzrtwnL1kGU_FuzAbN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066756434355-lmijvo4038inf56theeu9l2bv0olu7se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
